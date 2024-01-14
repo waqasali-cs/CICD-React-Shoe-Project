@@ -3,8 +3,8 @@ import React from 'react'
 export default function ShoDetail() {
   return (
     <div className='flex flex-col lg:flex-row-reverse'>
-      <figure className='flex-1 self-center lg:self-auto bg-gradient-to-br from-pink-500 via-amber-100 to-cyan-100 lg:h-[38rem]'>
-        <img
+      <figure className='flex-1 self-center lg:self-auto bg-gradient-to-br from-pink-500 via-amber-100 to-cyan-100 lg:h-[38rem] lg:-my-28 lg:ml-28 lg:-z-10'>
+        <img className='h-full'
           src="https://parspng.com/wp-content/uploads/2023/02/shoespng.parspng.com_.png"
           alt=""
         />
