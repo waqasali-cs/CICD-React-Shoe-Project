@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='px-4 py-5 lg:px-16'>
+      <div className='px-4 py-5 lg:px-16 animate-fadeIn'>
         <Nav />
         <ShoeDetail />
       </div>

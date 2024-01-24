@@ -43,7 +43,7 @@ export default function Nav() {
           </div>
           {/* CART BUTTON */}
           <div className="fixed bottom-4 left-4 lg:static lg:mr-8">
-          <div className="p-3 rounded-full bg-white shadow-md text-lg">
+          <div className="p-3 rounded-full bg-white shadow-md text-lg transition active:scale-75">
               <TbShoppingBag />
           </div>
           </div>
